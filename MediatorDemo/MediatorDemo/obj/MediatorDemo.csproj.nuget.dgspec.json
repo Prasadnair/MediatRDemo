@@ -1,0 +1,149 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo\\MediatorDemo.csproj": {}
+  },
+  "projects": {
+    "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj",
+        "projectName": "MediatorDemo.Library",
+        "projectPath": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj",
+        "packagesPath": "C:\\Users\\raget\\.nuget\\packages\\",
+        "outputPath": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo.Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\raget\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.1.22431.12\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo\\MediatorDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo\\MediatorDemo.csproj",
+        "projectName": "MediatorDemo",
+        "projectPath": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo\\MediatorDemo.csproj",
+        "packagesPath": "C:\\Users\\raget\\.nuget\\packages\\",
+        "outputPath": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\raget\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj": {
+                "projectPath": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.1.22431.12\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
