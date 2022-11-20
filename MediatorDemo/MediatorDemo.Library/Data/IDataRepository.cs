@@ -11,5 +11,7 @@ namespace MediatorDemo.Library.Data
     {
         List<StudentModel> GetStudents();
         StudentModel AddStudent(StudentModel student);
+
+        StudentModel  GetStudentById(int id);
     }
 }

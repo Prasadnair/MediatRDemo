@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo\\MediatorDemo.csproj": {}
+    "D:\\Prasad\\Articles\\MediatorRPart2\\MediatRDemo\\MediatorDemo\\MediatorDemo\\MediatorDemo.csproj": {}
   },
   "projects": {
-    "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj": {
+    "D:\\Prasad\\Articles\\MediatorRPart2\\MediatRDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj",
+        "projectUniqueName": "D:\\Prasad\\Articles\\MediatorRPart2\\MediatRDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj",
         "projectName": "MediatorDemo.Library",
-        "projectPath": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj",
+        "projectPath": "D:\\Prasad\\Articles\\MediatorRPart2\\MediatRDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj",
         "packagesPath": "C:\\Users\\raget\\.nuget\\packages\\",
-        "outputPath": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo.Library\\obj\\",
+        "outputPath": "D:\\Prasad\\Articles\\MediatorRPart2\\MediatRDemo\\MediatorDemo\\MediatorDemo.Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo\\MediatorDemo.csproj": {
+    "D:\\Prasad\\Articles\\MediatorRPart2\\MediatRDemo\\MediatorDemo\\MediatorDemo\\MediatorDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo\\MediatorDemo.csproj",
+        "projectUniqueName": "D:\\Prasad\\Articles\\MediatorRPart2\\MediatRDemo\\MediatorDemo\\MediatorDemo\\MediatorDemo.csproj",
         "projectName": "MediatorDemo",
-        "projectPath": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo\\MediatorDemo.csproj",
+        "projectPath": "D:\\Prasad\\Articles\\MediatorRPart2\\MediatRDemo\\MediatorDemo\\MediatorDemo\\MediatorDemo.csproj",
         "packagesPath": "C:\\Users\\raget\\.nuget\\packages\\",
-        "outputPath": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo\\obj\\",
+        "outputPath": "D:\\Prasad\\Articles\\MediatorRPart2\\MediatRDemo\\MediatorDemo\\MediatorDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -97,8 +97,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj": {
-                "projectPath": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj"
+              "D:\\Prasad\\Articles\\MediatorRPart2\\MediatRDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj": {
+                "projectPath": "D:\\Prasad\\Articles\\MediatorRPart2\\MediatRDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj"
               }
             }
           }

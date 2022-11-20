@@ -20,6 +20,11 @@ namespace MediatorDemo.Library.Data
             return student;
         }
 
+        public StudentModel GetStudentById(int id)
+        {
+            return _students.Where(s => s.Id == id).FirstOrDefault(new StudentModel());
+        }
+
         public List<StudentModel> GetStudents()
         {
             return _students;

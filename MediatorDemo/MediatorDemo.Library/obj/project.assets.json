@@ -49,11 +49,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj",
+      "projectUniqueName": "D:\\Prasad\\Articles\\MediatorRPart2\\MediatRDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj",
       "projectName": "MediatorDemo.Library",
-      "projectPath": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj",
+      "projectPath": "D:\\Prasad\\Articles\\MediatorRPart2\\MediatRDemo\\MediatorDemo\\MediatorDemo.Library\\MediatorDemo.Library.csproj",
       "packagesPath": "C:\\Users\\raget\\.nuget\\packages\\",
-      "outputPath": "D:\\Prasad\\Articles\\MediatorDemo\\MediatorDemo\\MediatorDemo.Library\\obj\\",
+      "outputPath": "D:\\Prasad\\Articles\\MediatorRPart2\\MediatRDemo\\MediatorDemo\\MediatorDemo.Library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -22,6 +22,12 @@ namespace MediatorDemo.Controllers
             return await _mediator.Send(new GetStudentsListQuery());
         }
 
+        [HttpGet("{id}")]
+        public async Task<StudentModel> Get(int id)
+        {
+            return await _mediator.Send(new GetStudentByIdQuery(id));
+        }
+
 
     }
 }
