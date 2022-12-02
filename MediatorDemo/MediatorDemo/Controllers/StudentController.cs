@@ -1,4 +1,5 @@
-﻿using MediatorDemo.Library.Models;
+﻿using MediatorDemo.Library.Commands;
+using MediatorDemo.Library.Models;
 using MediatorDemo.Library.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -26,6 +27,12 @@ namespace MediatorDemo.Controllers
         public async Task<StudentModel> Get(int id)
         {
             return await _mediator.Send(new GetStudentByIdQuery(id));
+        }
+
+        [HttpPost]
+        public async Task<StudentModel> Post(StudentModel model)
+        {
+            return await _mediator.Send(new AddStudentCommand(model));
         }
 
 
